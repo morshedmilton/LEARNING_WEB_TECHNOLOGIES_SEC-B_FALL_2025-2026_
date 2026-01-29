@@ -1,7 +1,7 @@
-CREATE DATABASE IF NOT EXISTS product_db;
+CREATE DATABASE product_db;
 USE product_db;
 
-CREATE TABLE IF NOT EXISTS products (
+CREATE TABLE products (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     buying_price DECIMAL(10,2) NOT NULL,
